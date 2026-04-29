@@ -1,7 +1,19 @@
-# DeepLearning-Paper-with-Code [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![CV](https://img.shields.io/badge/CV-Computer%20Vision-blue) ![AIGC](https://img.shields.io/badge/AIGC-Generative%20AI-orange) ![VLM](https://img.shields.io/badge/VLM-Vision--Language-purple) ![LLM](https://img.shields.io/badge/LLM-Large%20Language%20Model-green)
-There are paper with code and note in terms of deep learning.
+# DeepLearning-Paper-with-Code
 
-- CV (Computer Vision)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![CV](https://img.shields.io/badge/CV-Computer%20Vision-blue) ![AIGC](https://img.shields.io/badge/AIGC-Generative%20AI-orange) ![VLM](https://img.shields.io/badge/VLM-Vision--Language-purple) ![LLM](https://img.shields.io/badge/LLM-Large%20Language%20Model-green)
+
+There are paper with code for CV / AIGC / LLM / VLM.
+
+[Updating...]
+
+- **AIGC** (AI Generated Content)
+    - [GAN](#Generative-Adversarial-Network)
+    - [VAE](#Variational-Auto-Encoder)
+    - [Diffusion](#Diffusion-Model)
+- **LLM / VLM** (Large Language Model / Vision-Language Model)
+    - [Transformer](#Attention-or-Transformer)
+    - [ViT](#Vision-Transformer)
+- **CV** (Computer Vision)
     - [Backbone](#Backbone)
     - [Optimization](#Optimization)
     - [Detection](#Object-Detection)
@@ -14,14 +26,38 @@ There are paper with code and note in terms of deep learning.
     - [RGBD-SOT](#Salient-Object-Detection)
     - [Unsupervised](#Unsupervised-Learning)
     - [Survey](#Survey)
-- AIGC (AI Generated Content)
-    - [GAN](#Generative-Adversarial-Network)
-    - [VAE]()
-    - [Diffusion]()
-- LLM / VLM (Large Language Model / Vision-Language Model)
-    - [Transformer](#Attention-or-Transformer)
-    - [ViT]()
 
+
+## Generative Adversarial Network
+| Title | Paper | Conf | Code |
+|:--------|:--------:|:--------:|:--------:|
+| GAN | [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661) | arXiv(2014) | [code]
+| BeautyGAN | [BeautyGAN: Instance-level Facial Makeup Transfer with Deep Generative Adversarial Network](http://liusi-group.com/pdf/BeautyGAN-camera-ready_2.pdf) | ACM MM(2018) | [TensorFlow](http://liusi-group.com/projects/BeautyGAN)
+
+## Variational Auto-Encoder
+| Title | Paper | Conf | Code |
+|:--------|:--------:|:--------:|:--------:|
+
+## Diffusion Model
+| Title | Paper | Conf | Code |
+|:--------|:--------:|:--------:|:--------:|
+
+## Attention or Transformer
+| Title | Paper | Conf | Code |
+|:--------|:--------:|:--------:|:--------:|
+| Transformer | [Attention Is All You Need](http://arxiv.org/abs/1706.03762) | arXiv(2017) | [TensorFlow](https://github.com/tensorflow/tensor2tensor)
+| Non-local | [Non-local Neural Networks](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Non-Local_Neural_Networks_CVPR_2018_paper.pdf) | CVPR(2018) | [PyTorch](https://github.com/facebookresearch/video-nonlocal-net)
+| [Image Transformer](https://gojay.top/2020/05/15/Image-Transformer/) | [Image Transformer](https://arxiv.org/abs/1802.05751) | arXiv(2018) | [code]
+| ViT | [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](http://arxiv.org/abs/2010.11929) | arXiv(2020) | [PyTorch](https://github.com/google-research/vision_transformer)
+| Swin Transformer | [Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://arxiv.org/abs/2103.14030) | arXiv(2021) | [PyTorch](https://github.com/microsoft/Swin-Transformer)
+| ResT | [ResT: An Efficient Transformer for Visual Recognition](http://arxiv.org/abs/2105.13677) | arXiv(2021) | [PyTorch](https://github.com/wofmanaf/ResT)
+| DS-Net | [Dual-stream Network for Visual Recognition](http://arxiv.org/abs/2105.14734) | arXiv(2021) | [code]
+| TransCNN | [Transformer in Convolutional Neural Networks](http://arxiv.org/abs/2106.03180) | arXiv(2021) | [PyTorch](https://github.com/yun-liu/TransCNN)
+| Shuffle Transformer | [Shuffle Transformer: Rethinking Spatial Shuffle for Vision Transformer](http://arxiv.org/abs/2106.03650) | arXiv(2021) | [PyTorch](https://github.com/speedinghzl/ShuffleTransformer)
+
+## Vision Transformer
+| Title | Paper | Conf | Code |
+|:--------|:--------:|:--------:|:--------:|
 
 ## Backbone
 | Title | Paper | Conf | Code |
@@ -151,19 +187,6 @@ There are paper with code and note in terms of deep learning.
 | MICA | [Towards Metrical Reconstruction of Human Faces](https://arxiv.org/abs/2204.06607) | ECCV(2022) | [PyTorch](https://github.com/Zielon/MICA)
 | HRN | [A Hierarchical Representation Network for Accurate and Detailed Face Reconstruction from In-The-Wild Images](https://arxiv.org/abs/2302.14434) | CVPR(2023) | [PyTorch](https://github.com/youngLBW/HRN)
 
-## Attention or Transformer
-| Title | Paper | Conf | Code |
-|:--------|:--------:|:--------:|:--------:|
-| Transformer | [Attention Is All You Need](http://arxiv.org/abs/1706.03762) | arXiv(2017) | [TensorFlow](https://github.com/tensorflow/tensor2tensor)
-| Non-local | [Non-local Neural Networks](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Non-Local_Neural_Networks_CVPR_2018_paper.pdf) | CVPR(2018) | [PyTorch](https://github.com/facebookresearch/video-nonlocal-net)
-| [Image Transformer](https://gojay.top/2020/05/15/Image-Transformer/) | [Image Transformer](https://arxiv.org/abs/1802.05751) | arXiv(2018) | [code]
-| ViT | [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](http://arxiv.org/abs/2010.11929) | arXiv(2020) | [PyTorch](https://github.com/google-research/vision_transformer)
-| Swin Transformer | [Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://arxiv.org/abs/2103.14030) | arXiv(2021) | [PyTorch](https://github.com/microsoft/Swin-Transformer)
-| ResT | [ResT: An Efficient Transformer for Visual Recognition](http://arxiv.org/abs/2105.13677) | arXiv(2021) | [PyTorch](https://github.com/wofmanaf/ResT)
-| DS-Net | [Dual-stream Network for Visual Recognition](http://arxiv.org/abs/2105.14734) | arXiv(2021) | [code]
-| TransCNN | [Transformer in Convolutional Neural Networks](http://arxiv.org/abs/2106.03180) | arXiv(2021) | [PyTorch](https://github.com/yun-liu/TransCNN)
-| Shuffle Transformer | [Shuffle Transformer: Rethinking Spatial Shuffle for Vision Transformer](http://arxiv.org/abs/2106.03650) | arXiv(2021) | [PyTorch](https://github.com/speedinghzl/ShuffleTransformer)
-
 ## Salient Object Detection
 | Title | Paper | Conf | Code |
 |:--------|:--------:|:--------:|:--------:|
@@ -187,12 +210,6 @@ There are paper with code and note in terms of deep learning.
 | Title | Paper | Conf | Code |
 |:--------|:--------:|:--------:|:--------:|
 | [RN](https://gojay.top/2019/08/21/RN-Realation-Network/) | [Learning to Compare: Relation Network for Few-Shot Learning](https://arxiv.org/abs/1711.06025) | CVPR(2018) | [PyTorch](https://github.com/Gojay001/LearningToCompare_FSL)
-
-## Generative Adversarial Network
-| Title | Paper | Conf | Code |
-|:--------|:--------:|:--------:|:--------:|
-| GAN | [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661) | arXiv(2014) | [code]
-| BeautyGAN | [BeautyGAN: Instance-level Facial Makeup Transfer with Deep Generative Adversarial Network](http://liusi-group.com/pdf/BeautyGAN-camera-ready_2.pdf) | ACM MM(2018) | [TensorFlow](http://liusi-group.com/projects/BeautyGAN)
 
 ## Optimization
 | Title | Paper | Conf | Code |
