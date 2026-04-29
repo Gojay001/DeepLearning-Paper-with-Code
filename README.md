@@ -46,7 +46,7 @@ There are paper with code for CV / AIGC / LLM / VLM.
 | StyleGAN3 | [Alias-Free Generative Adversarial Networks](https://arxiv.org/abs/2106.12423) | NIPS(2021) | [PyTorch](https://github.com/NVlabs/stylegan3)
 | HairCLIP | [HairCLIP: Design Your Hair by Text and Reference Image](https://arxiv.org/abs/2112.05142) | CVPR(2022) | [PyTorch](https://github.com/wtybest/HairCLIP)
 | HairMapper | [HairMapper: Removing Hair from Portraits Using GANs](https://onethousandwu.com/HairMapper.github.io/) | CVPR(2022) | [PyTorch](https://github.com/oneThousand1000/HairMapper)
-> More implementation for GANs can be found in [PyTorch-GAN](https://github.com/eriklindernoren/PyTorch-GAN)
+> More implementation for GANs can be found in [PyTorch-GAN](https://github.com/eriklindernoren/PyTorch-GAN).
 
 ## Variational Auto-Encoder
 | Title | Paper | Conf | Code |
@@ -64,20 +64,26 @@ There are paper with code for CV / AIGC / LLM / VLM.
 ## Attention or Transformer
 | Title | Paper | Conf | Code |
 |:--------|:--------:|:--------:|:--------:|
-| Transformer | [Attention Is All You Need](http://arxiv.org/abs/1706.03762) | arXiv(2017) | [TensorFlow](https://github.com/tensorflow/tensor2tensor)
-| Non-local | [Non-local Neural Networks](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Non-Local_Neural_Networks_CVPR_2018_paper.pdf) | CVPR(2018) | [PyTorch](https://github.com/facebookresearch/video-nonlocal-net)
-| [Image Transformer](https://gojay.top/2020/05/15/Image-Transformer/) | [Image Transformer](https://arxiv.org/abs/1802.05751) | arXiv(2018) | [code]
-| ViT | [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](http://arxiv.org/abs/2010.11929) | arXiv(2020) | [PyTorch](https://github.com/google-research/vision_transformer)
-| Swin Transformer | [Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://arxiv.org/abs/2103.14030) | arXiv(2021) | [PyTorch](https://github.com/microsoft/Swin-Transformer)
-| ResT | [ResT: An Efficient Transformer for Visual Recognition](http://arxiv.org/abs/2105.13677) | arXiv(2021) | [PyTorch](https://github.com/wofmanaf/ResT)
-| DS-Net | [Dual-stream Network for Visual Recognition](http://arxiv.org/abs/2105.14734) | arXiv(2021) | [code]
-| TransCNN | [Transformer in Convolutional Neural Networks](http://arxiv.org/abs/2106.03180) | arXiv(2021) | [PyTorch](https://github.com/yun-liu/TransCNN)
-| Shuffle Transformer | [Shuffle Transformer: Rethinking Spatial Shuffle for Vision Transformer](http://arxiv.org/abs/2106.03650) | arXiv(2021) | [PyTorch](https://github.com/speedinghzl/ShuffleTransformer)
+| CAM | [Learning Deep Features for Discriminative Localization](https://arxiv.org/abs/1512.04150) | arXiv(2015) / CVPR(2016) | [Caffe](https://github.com/zhoubolei/CAM)
+| Transformer | [Attention Is All You Need](http://arxiv.org/abs/1706.03762) | NIPS(2017) | [TensorFlow](https://github.com/tensorflow/tensor2tensor)
+| SENet | [Squeeze-and-Excitation Networks](https://arxiv.org/abs/1709.01507) | arXiv(2017) / CVPR(2018) | [Caffe](https://github.com/hujie-frank/SENet)
+| GAT | [Graph Attention Networks](https://arxiv.org/abs/1710.10903) | arXiv(2017) / ICLR(2018) | [TensorFlow](https://github.com/PetarV-/GAT)
+| Non-local | [Non-local Neural Networks](https://arxiv.org/abs/1711.07971) | arXiv(2017) / CVPR(2018) | [Caffe](https://github.com/facebookresearch/video-nonlocal-net)
 
 ## Vision Transformer
 | Title | Paper | Conf | Code |
 |:--------|:--------:|:--------:|:--------:|
+| [Image Transformer](https://gojay.top/2020/05/15/Image-Transformer/) | [Image Transformer](https://arxiv.org/abs/1802.05751) | ICML(2018) | [code]
 | ViT | [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929) | arXiv(2020) / ICLR(2021) | [PyTorch](https://github.com/lucidrains/vit-pytorch)
+| Swin Transformer | [Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://arxiv.org/abs/2103.14030) | ICCV(2021) | [PyTorch](https://github.com/microsoft/Swin-Transformer)
+| DINO | [Emerging Properties in Self-Supervised Vision Transformers](https://arxiv.org/abs/2104.14294) | ICCV(2021) | [PyTorch](https://github.com/facebookresearch/dino)
+| ResT | [ResT: An Efficient Transformer for Visual Recognition](http://arxiv.org/abs/2105.13677) | NIPS(2021) | [PyTorch](https://github.com/wofmanaf/ResT)
+| HAT-Net | [Vision Transformers with Hierarchical Attention](http://arxiv.org/abs/2106.03180) | arXiv(2021) | [PyTorch](https://github.com/yun-liu/HAT-Net)
+| Shuffle-T | [Shuffle Transformer: Rethinking Spatial Shuffle for Vision Transformer](http://arxiv.org/abs/2106.03650) | arXiv(2021) | [PyTorch](https://github.com/mulinmeng/Shuffle-Transformer)
+| Swinv2 | [Swin Transformer V2: Scaling Up Capacity and Resolution](https://arxiv.org/abs/2111.09883) | arXiv(2021) / CVPR(2022) | [PyTorch](https://github.com/microsoft/Swin-Transformer)
+| DINOv2 | [DINOv2: Learning Robust Visual Features without Supervision](https://arxiv.org/abs/2304.07193) | arXiv(2023) | [PyTorch](https://github.com/facebookresearch/dinov2)
+| DINOv3 | [DINOv3](https://arxiv.org/abs/2508.10104) | arXiv(2025) | [PyTorch](https://github.com/facebookresearch/dinov3)
+| LAST-ViT | [Vision Transformers Need More Than Registers](https://arxiv.org/abs/2602.22394) | arXiv(2026) | [PyTorch](https://github.com/ChengShiest/LAST-ViT)
 > More implementation for ViTs can be found in [vit-pytorch](https://github.com/lucidrains/vit-pytorch).
 
 ---
