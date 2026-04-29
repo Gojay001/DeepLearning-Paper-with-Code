@@ -37,10 +37,13 @@ There are paper with code for CV / AIGC / LLM / VLM.
 ## Variational Auto-Encoder
 | Title | Paper | Conf | Code |
 |:--------|:--------:|:--------:|:--------:|
+| VAE | [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114) | arXiv(2013) / ICLR(2014) | [PyTorch](https://github.com/AntixK/PyTorch-VAE)
+> More implementation for VAEs can be found in [PyTorch-VAE](https://github.com/AntixK/PyTorch-VAE).
 
 ## Diffusion Model
 | Title | Paper | Conf | Code |
 |:--------|:--------:|:--------:|:--------:|
+| DDPM | [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239) | arXiv(2020) / NIPS(2020) | [PyTorch](https://github.com/lucidrains/denoising-diffusion-pytorch)
 
 ## Attention or Transformer
 | Title | Paper | Conf | Code |
@@ -58,6 +61,8 @@ There are paper with code for CV / AIGC / LLM / VLM.
 ## Vision Transformer
 | Title | Paper | Conf | Code |
 |:--------|:--------:|:--------:|:--------:|
+| ViT | [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929) | arXiv(2020) / ICLR(2021) | [PyTorch](https://github.com/lucidrains/vit-pytorch)
+> More implementation for ViTs can be found in [vit-pytorch](https://github.com/lucidrains/vit-pytorch).
 
 ## Backbone
 | Title | Paper | Conf | Code |
