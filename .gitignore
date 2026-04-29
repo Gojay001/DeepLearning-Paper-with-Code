@@ -3,3 +3,6 @@
 
 # python cache
 __pycache__/
+
+# local
+Classification/

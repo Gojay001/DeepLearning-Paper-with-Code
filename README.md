@@ -1,156 +1,29 @@
-# DeepLearning-pwcn [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# DeepLearning-Paper-with-Code [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![CV](https://img.shields.io/badge/CV-Computer%20Vision-blue) ![AIGC](https://img.shields.io/badge/AIGC-Generative%20AI-orange) ![VLM](https://img.shields.io/badge/VLM-Vision--Language-purple) ![LLM](https://img.shields.io/badge/LLM-Large%20Language%20Model-green)
 There are paper with code and note in terms of deep learning.
 
-- [Classification](#Image-Classification)
-    - LeNet-5
-    - AlexNet
-    - NIN(Network In Network)
-    - VGG
-    - GoogLeNet(Inception-v1)
-    - ResNet
-    - Inception-v4
-    - DenseNet
-    - DLA(Deep Layer Aggregation)
-    - ShuffleNet
-    - MobileNetV3
-- [Detection](#Object-Detection)
-    - One-stage
-        - SSD
-        - YOLO
-        - YOLOv2
-        - RetinaNet
-        - YOLOv3
-        - CornerNet
-        - CenterNet
-        - YOLOv4
-        - YOLOF
-    - Two-stage
-        - R-CNN
-        - SPP
-        - Fast R-CNN
-        - Faster R-CNN
-        - FPN
-- [Segmentation](#Object-Segmentation)
-    - FCN
-    - U-Net
-    - Seg-Net
-    - DeepLab V1
-    - PSPNet
-    - DeepLab V2
-    - Mask R-CNN
-    - DeepLab V3
-    - PointNet
-    - PointNet++
-    - DeepLab V3+
-    - DGCNet(Dual GCN)
-    - SETR(SEgmentation TRansfomer)
-    - Segmenter
-    - SegFormer
-    - FTN(Fully Transformer Networks)
-- [Tracking](#Object-Tracking)
-    - MOT
-        - SORT
-        - DeepSORT
-        - Tracktor
-        - FFT(Flow-Fuse Tracker)
-        - JRMOT
-        - Tracklet
-        - DMCT(Deep Multi-Camera Tracking)
-        - FairMOT
-        - CenterPoint
-    - VOT
-        - DepthTrack
-        - BinocularTrack
-        - SiamFC
-        - SiamRPN
-        - SiamRPN++
-        - SiamMask
-        - GlobalTrack
-        - PAMCC-AOT
-        - SiamCAR
-        - SiamBAN
-        - SiamAttn
-        - TSDM
-        - SiamGAT
-        - RE-SiamNets
-- [FSS](#Few-Shot-Segmentation)
-    - OSLSM
-    - co-FCN
-    - AMP(Adaptive Masked Proxies)
-    - SG-One(Similarity Guidance)
-    - CENet(Combinatorial Embedding Network)
-    - PANet(Prototype Alignment)
-    - CANet(Class Agnostic)
-    - PGNet(Pyramid Graph Network)
-    - CRNet(Cross-Reference Network)
-    - FGN(Fully Guided Network)
-    - OTB(On the Texture Bias)
-    - LTM(Local Transformation Module)
-    - SimPropNet(Similarity Propagation)
-    - PPNet(Part-aware Prototype)
-    - PFENet(Prior Guided Feature Enrichment Network)
-    - PMMs(Prototype Mixture Models)
-    - GFS-Seg(Generalized Few-Shot)
-    - SCL(Self-Corss Learning)
-    - ASGNet(Adaptive Superpixel-guided Network)
-    - HSNet(Hypercorrelation Squeeze)
-    - BAM
-- [3D-Face](#3D-Face-Reconstruction-and-Facial-Animation)
-    - 3DMM
-    - CameraCalibration
-    - Bilinear
-    - DDE
-    - FaceWarehouse
-    - Face2Face
-    - DynamicAvatars
-    - FLAME
-    - Nonlinear
-    - DynamicRigidityPrior
-    - Deep3D
-    - SimpleAnimation
-    - RingNet
-    - FOCUS
-    - MICA
-    - HRN
-- [Attention](#Attention-or-Transformer)
-    - Transformer
-    - Non-local
-    - Image Transformer
-    - ViT(Vision Transformer)
-    - Swin Transformer
-    - ResT
-    - DS-Net(Dual Stream Network)
-    - TransCNN
-    - Shuffle Transformer
-- [RGBD-SOT](#Salient-Object-Detection)
-    - UC-Net
-    - JL-DCF(Joint Learning and Densely-Cooperative Fusion)
-    - SA-Gate(Separation-and-Aggregation Gate)
-    - BiANet(Bilateral Attention Network)
-    - DSA^2F(Depth-Sensitive Attention and Automatic Multi-Modal Fusion)
-- [Unsupervised](#Unsupervised-Learning)
-    - SimSiam
-- [Detection-3D](#3D-Object-Detection)
-    - PV-RCNN
-- [FSL](#Few-Shot-Learning)
-    - RN(Relation Network)
-- [GAN](#Generative-Adversarial-Network)
-    - GAN
-    - BeautyGAN
-- [Optimization](#Optimization)
-    - ReLU
-    - Momentum
-    - Dropout
-    - Adam
-    - BN
-    - GDoptimization
-- [Survey](#Survey)
-    - 3D-Detection-Survey-2019
-    - FSL-Survey-2019
-    - MOT-Survey-2020
-    - Transformer-Survey-2021
+- CV (Computer Vision)
+    - [Backbone](#Backbone)
+    - [Optimization](#Optimization)
+    - [Detection](#Object-Detection)
+    - [Segmentation](#Object-Segmentation)
+    - [Tracking](#Object-Tracking)
+    - [FSS](#Few-Shot-Segmentation)
+    - [FSL](#Few-Shot-Learning)
+    - [3D-Face](#3D-Face-Reconstruction-and-Facial-Animation)
+    - [Detection-3D](#3D-Object-Detection)
+    - [RGBD-SOT](#Salient-Object-Detection)
+    - [Unsupervised](#Unsupervised-Learning)
+    - [Survey](#Survey)
+- AIGC (AI Generated Content)
+    - [GAN](#Generative-Adversarial-Network)
+    - [VAE]()
+    - [Diffusion]()
+- LLM / VLM (Large Language Model / Vision-Language Model)
+    - [Transformer](#Attention-or-Transformer)
+    - [ViT]()
 
-## Image Classification
+
+## Backbone
 | Title | Paper | Conf | Code |
 |:--------|:--------:|:--------:|:--------:|
 | LeNet-5 | [Gradient-based learning applied to document recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf) | IEEE(1998) | [code]
