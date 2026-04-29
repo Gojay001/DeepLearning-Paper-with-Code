@@ -34,7 +34,19 @@ There are paper with code for CV / AIGC / LLM / VLM.
 | Title | Paper | Conf | Code |
 |:--------|:--------:|:--------:|:--------:|
 | GAN | [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661) | arXiv(2014) | [code]
+| pix2pix | [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/abs/1611.07004) | arXiv(2016) / CVPR(2017) | [PyTorch](https://github.com/phillipi/pix2pix)
+| CycleGAN | [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/abs/1703.10593) | ICCV(2017) | [PyTorch](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
+| pix2pixHD | [High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs](https://arxiv.org/abs/1711.11585) | arXiv(2017) / CVPR(2018) | [PyTroch](https://github.com/NVIDIA/pix2pixHD)
 | BeautyGAN | [BeautyGAN: Instance-level Facial Makeup Transfer with Deep Generative Adversarial Network](http://liusi-group.com/pdf/BeautyGAN-camera-ready_2.pdf) | ACM MM(2018) | [TensorFlow](http://liusi-group.com/projects/BeautyGAN)
+| StyleGAN | [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948) | arXiv(2018) / CVPR(2019) | [TensorFlow](https://github.com/NVlabs/stylegan)
+| StyleGAN2 | [Analyzing and Improving the Image Quality of StyleGAN](https://arxiv.org/abs/1912.04958) | arXiv(2019) / CVPR(2020) | [TensorFlow](https://github.com/NVlabs/stylegan2)
+| StyleGAN2-ADA | [Training Generative Adversarial Networks with Limited Data](https://arxiv.org/abs/2006.06676) | NIPS(2020) | [PyTorch](https://github.com/NVlabs/stylegan2-ada-pytorch)
+| StyleCLIP | [StyleCLIP: Text-Driven Manipulation of StyleGAN Imagery](https://arxiv.org/abs/2103.17249) | ICCV(2021) | [PyTorch](https://github.com/orpatashnik/StyleCLIP)
+| MobileStyleGAN | [MobileStyleGAN: A Lightweight Convolutional Neural Network for High-Fidelity Image Synthesis](https://arxiv.org/abs/2104.04767) | arXiv(2021) | [PyTorch](https://github.com/bes-dev/MobileStyleGAN.pytorch)
+| StyleGAN3 | [Alias-Free Generative Adversarial Networks](https://arxiv.org/abs/2106.12423) | NIPS(2021) | [PyTorch](https://github.com/NVlabs/stylegan3)
+| HairCLIP | [HairCLIP: Design Your Hair by Text and Reference Image](https://arxiv.org/abs/2112.05142) | CVPR(2022) | [PyTorch](https://github.com/wtybest/HairCLIP)
+| HairMapper | [HairMapper: Removing Hair from Portraits Using GANs](https://onethousandwu.com/HairMapper.github.io/) | CVPR(2022) | [PyTorch](https://github.com/oneThousand1000/HairMapper)
+> More implementation for GANs can be found in [PyTorch-GAN](https://github.com/eriklindernoren/PyTorch-GAN)
 
 ## Variational Auto-Encoder
 | Title | Paper | Conf | Code |
@@ -232,6 +244,7 @@ There are paper with code for CV / AIGC / LLM / VLM.
 | Adam | [Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980) | ICLR(2015) | [code]
 | BN | [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167) | ICML(2015) | [code]
 | GDoptimization | [An overview of gradient descent optimization algorithms](https://arxiv.org/abs/1609.04747) | arXiv(2016) | [code]
+| StableLoss | [Single-frame regularization for temporally stable cnns](https://arxiv.org/abs/1902.10424) | CVPR(2019) | [code]
 
 ## Survey
 | Title | Paper | Conf |
