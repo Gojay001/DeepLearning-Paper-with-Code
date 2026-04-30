@@ -10,6 +10,9 @@ There are paper with code for CV / AIGC / LLM / VLM.
     - [GAN](#Generative-Adversarial-Network)
     - [VAE](#Variational-Auto-Encoder)
     - [Diffusion](#Diffusion-Model)
+    - [Applications](#AIGC-Applications)
+        - [Face Editing](#Face-Editing)
+        - [Face Swapping](#Face-Swapping)
 - **LLM / VLM** (Large Language Model / Vision-Language Model)
     - [Transformer](#Attention-or-Transformer)
     - [ViT](#Vision-Transformer)
@@ -19,8 +22,8 @@ There are paper with code for CV / AIGC / LLM / VLM.
     - [Detection](#Object-Detection)
     - [Segmentation](#Object-Segmentation)
     - [Tracking](#Object-Tracking)
-        - MOT
-        - VOT
+        - [MOT](#Multiple-Object-Tracking)
+        - [VOT](#Visual-Object-Tracking)
     - [FSS](#Few-Shot-Segmentation)
     - [FSL](#Few-Shot-Learning)
     - [3D-Face](#3D-Face-Reconstruction-and-Facial-Animation)
@@ -37,15 +40,12 @@ There are paper with code for CV / AIGC / LLM / VLM.
 | pix2pix | [Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/abs/1611.07004) | arXiv(2016) / CVPR(2017) | [PyTorch](https://github.com/phillipi/pix2pix)
 | CycleGAN | [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/abs/1703.10593) | ICCV(2017) | [PyTorch](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
 | pix2pixHD | [High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs](https://arxiv.org/abs/1711.11585) | arXiv(2017) / CVPR(2018) | [PyTroch](https://github.com/NVIDIA/pix2pixHD)
-| BeautyGAN | [BeautyGAN: Instance-level Facial Makeup Transfer with Deep Generative Adversarial Network](http://liusi-group.com/pdf/BeautyGAN-camera-ready_2.pdf) | ACM MM(2018) | [TensorFlow](http://liusi-group.com/projects/BeautyGAN)
 | StyleGAN | [A Style-Based Generator Architecture for Generative Adversarial Networks](https://arxiv.org/abs/1812.04948) | arXiv(2018) / CVPR(2019) | [TensorFlow](https://github.com/NVlabs/stylegan)
 | StyleGAN2 | [Analyzing and Improving the Image Quality of StyleGAN](https://arxiv.org/abs/1912.04958) | arXiv(2019) / CVPR(2020) | [TensorFlow](https://github.com/NVlabs/stylegan2)
 | StyleGAN2-ADA | [Training Generative Adversarial Networks with Limited Data](https://arxiv.org/abs/2006.06676) | NIPS(2020) | [PyTorch](https://github.com/NVlabs/stylegan2-ada-pytorch)
 | StyleCLIP | [StyleCLIP: Text-Driven Manipulation of StyleGAN Imagery](https://arxiv.org/abs/2103.17249) | ICCV(2021) | [PyTorch](https://github.com/orpatashnik/StyleCLIP)
 | MobileStyleGAN | [MobileStyleGAN: A Lightweight Convolutional Neural Network for High-Fidelity Image Synthesis](https://arxiv.org/abs/2104.04767) | arXiv(2021) | [PyTorch](https://github.com/bes-dev/MobileStyleGAN.pytorch)
 | StyleGAN3 | [Alias-Free Generative Adversarial Networks](https://arxiv.org/abs/2106.12423) | NIPS(2021) | [PyTorch](https://github.com/NVlabs/stylegan3)
-| HairCLIP | [HairCLIP: Design Your Hair by Text and Reference Image](https://arxiv.org/abs/2112.05142) | CVPR(2022) | [PyTorch](https://github.com/wtybest/HairCLIP)
-| HairMapper | [HairMapper: Removing Hair from Portraits Using GANs](https://onethousandwu.com/HairMapper.github.io/) | CVPR(2022) | [PyTorch](https://github.com/oneThousand1000/HairMapper)
 > More implementation for GANs can be found in [PyTorch-GAN](https://github.com/eriklindernoren/PyTorch-GAN).
 
 ## Variational Auto-Encoder
@@ -61,8 +61,35 @@ There are paper with code for CV / AIGC / LLM / VLM.
 | SD | [High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752) | arXiv(2021) / CVPR(2022) | [PyTorch](https://github.com/compvis/stable-diffusion)
 | DiT | [Scalable Diffusion Models with Transformers](https://arxiv.org/abs/2212.09748) | arXiv(2022) / ICCV(2023) | [PyTorch](https://github.com/facebookresearch/DiT)
 | JiT | [Back to Basics: Let Denoising Generative Models Denoise](https://arxiv.org/abs/2511.13720) | arXiv(2025) | [PyTorch](https://github.com/LTH14/JiT)
-| PixelDiT | [PixelDiT: Pixel Diffusion Transformers for Image Generation](https://arxiv.org/abs/2511.20645) arXiv(2025) / CVPR(2026) | [PyTorch](https://github.com/NVlabs/PixelDiT)
+| PixelDiT | [PixelDiT: Pixel Diffusion Transformers for Image Generation](https://arxiv.org/abs/2511.20645) | arXiv(2025) / CVPR(2026) | [PyTorch](https://github.com/NVlabs/PixelDiT)
 > More implementation for Diffusion Models can be found in [Awesome-Diffusion-Models](https://github.com/diff-usion/Awesome-Diffusion-Models).
+
+## AIGC-Applications
+### Face Editing
+| Title | Paper | Conf | Code |
+|:--------|:--------:|:--------:|:--------:|
+| BeautyGAN | [BeautyGAN: Instance-level Facial Makeup Transfer with Deep Generative Adversarial Network](http://liusi-group.com/pdf/BeautyGAN-camera-ready_2.pdf) | ACM MM(2018) | [TensorFlow](http://liusi-group.com/projects/BeautyGAN)
+| GFPGAN | [Towards Real-World Blind Face Restoration with Generative Facial Prior](https://arxiv.org/abs/2101.04061) | CVPR(2021) | [PyTorch](https://github.com/TencentARC/GFPGAN)
+| HairCLIP | [HairCLIP: Design Your Hair by Text and Reference Image](https://arxiv.org/abs/2112.05142) | CVPR(2022) | [PyTorch](https://github.com/wtybest/HairCLIP)
+| HairMapper | [HairMapper: Removing Hair from Portraits Using GANs](https://onethousandwu.com/HairMapper.github.io/) | CVPR(2022) | [PyTorch](https://github.com/oneThousand1000/HairMapper)
+| LEDITS | [LEDITS: Real Image Editing with DDPM Inversion and Semantic Guidance](https://arxiv.org/abs/2307.00522) | arXiv(2023) | [code]
+| LEDITS++ | [LEDITS++: Limitless Image Editing using Text-to-Image Models](https://arxiv.org/abs/2311.16711) | arXiv(2023) / CVPR(2024) | [PyTorch](https://github.com/ml-research/ledits_pp)
+
+### Face Swapping
+| Title | Paper | Conf | Code |
+|:--------|:--------:|:--------:|:--------:|
+| FaceShifter | [FaceShifter: Towards High Fidelity And Occlusion Aware Face Swapping](https://arxiv.org/abs/1912.13457) | arXiv(2019) | [code]
+| DeepFaceLab | [DeepFaceLab: Integrated, flexible and extensible face-swapping framework](https://arxiv.org/abs/2005.05535) | arXiv(2020) | [TensorFlow](https://github.com/iperov/DeepFaceLab)
+| SimSwap | [SimSwap: An Efficient Framework For High Fidelity Face Swapping](https://arxiv.org/abs/2106.06340v1) | ACM MM(2020) | [PyTorch](https://github.com/neuralchen/SimSwap)
+| FaceController | [FaceController: Controllable Attribute Editing for Face in the Wild](https://arxiv.org/abs/2102.11464) | AAAI(2021) | [code]
+| HifiFace | [HifiFace: 3D Shape and Semantic Prior Guided High Fidelity Face Swapping](https://arxiv.org/abs/2106.09965) | IJCAI(2021) | [PyTorch](https://github.com/maum-ai/hififace)
+| GHOST | [GHOST—A New Face Swap Approach for Image and Video Domains](https://ieeexplore.ieee.org/abstract/document/9851423) | IEEE Acess(2022) | [PyTorch](https://github.com/ai-forever/ghost)
+| MobileFaceSwap | [MobileFaceSwap: A Lightweight Framework for Video Face Swapping](https://arxiv.org/abs/2201.03808) | AAAI(2022) | [PaddlePaddle](https://github.com/Seanseattle/MobileFaceSwap)
+| E4S | [Fine-Grained Face Swapping via Regional GAN Inversion](https://arxiv.org/abs/2211.14068) | arXiv(2022) / CVPR(2023) | [PyTorch](https://github.com/e4s2024/e4s2024)
+| SimSwap++ | [SimSwap++: Towards Faster and High-Quality Identity Swapping](https://pubmed.ncbi.nlm.nih.gov/37607138/) | TPAMI(2024) | [Github](https://github.com/neuralchen/SimSwapPlus)
+| DiffFace | [DiffFace: Diffusion-based Face Swapping with Facial Guidance](https://arxiv.org/abs/2212.13344) | arXiv(2022) / PR(2025) | [PyTorch](https://github.com/hxngiee/DiffFace)
+| DiffSwap | [DiffSwap: High-Fidelity and Controllable Face Swapping via 3D-Aware Masked Diffusion](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhao_DiffSwap_High-Fidelity_and_Controllable_Face_Swapping_via_3D-Aware_Masked_Diffusion_CVPR_2023_paper.pdf) | CVPR(2023) | [PyTorch](https://github.com/wl-zhao/DiffSwap)
+| DreamID | [DreamID: High-Fidelity and Fast diffusion-based Face Swapping via Triplet ID Group Learning](https://arxiv.org/abs/2504.14509) | SIGGRAPH Asia(2025) | [GitHub](https://github.com/superhero-7/DreamID)
 
 ---
 
@@ -149,7 +176,7 @@ There are paper with code for CV / AIGC / LLM / VLM.
 | FTN | [Fully Transformer Networks for Semantic ImageSegmentation](http://arxiv.org/abs/2106.04108) | arXiv(2021) | [code]
 
 ## Object Tracking
-### MOT (Multiple Object Tracking)
+### Multiple Object Tracking
 | Title | Paper | Conf | Code |
 |:--------|:--------:|:--------:|:--------:|
 | [SORT](https://gojay.top/2020/06/14/SORT/) | [Simple Online and Realtime Tracking](https://arxiv.org/abs/1602.00763) | ICIP(2016) | [PyTorch](https://github.com/abewley/sort)
@@ -162,7 +189,7 @@ There are paper with code for CV / AIGC / LLM / VLM.
 | [FairMOT](https://gojay.top/2020/05/25/FairMOT/) | [A Simple Baseline for Multi-Object Tracking](https://arxiv.org/abs/2004.01888) | arXiv(2020) | [PyTorch](https://github.com/Gojay001/FairMOT)
 | CenterPoint | [Center-based 3D Object Detection and Tracking](https://arxiv.org/pdf/2006.11275.pdf) | CVPR(2021) | [PyTorch](https://github.com/tianweiy/CenterPoint)
 
-### VOT (Visual Object Tracking)
+### Visual Object Tracking
 | Title | Paper | Conf | Code |
 |:--------|:--------:|:--------:|:--------:|
 | DepthTrack | [Real-time depth-based tracking using a binocular camera](https://github.com/Gojay001/DeepLearning-pwcn/tree/master/Tracking/Binocular%20camera/DepthTrack.pdf) | WCICA(2016) | [code]
@@ -255,7 +282,7 @@ There are paper with code for CV / AIGC / LLM / VLM.
 | Adam | [Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980) | ICLR(2015) | [code]
 | BN | [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167) | ICML(2015) | [code]
 | GDoptimization | [An overview of gradient descent optimization algorithms](https://arxiv.org/abs/1609.04747) | arXiv(2016) | [code]
-| StableLoss | [Single-frame regularization for temporally stable cnns](https://arxiv.org/abs/1902.10424) | CVPR(2019) | [code]
+| StableCNN | [Single-frame regularization for temporally stable cnns](https://arxiv.org/abs/1902.10424) | CVPR(2019) | [code]
 
 ## Survey
 | Title | Paper | Conf |
