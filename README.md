@@ -58,10 +58,19 @@ There are paper with code for CV / AIGC / LLM / VLM.
 | Title | Paper | Conf | Code |
 |:--------|:--------:|:--------:|:--------:|
 | DDPM | [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239) | arXiv(2020) / NIPS(2020) | [PyTorch](https://github.com/lucidrains/denoising-diffusion-pytorch)
-| SD | [High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752) | arXiv(2021) / CVPR(2022) | [PyTorch](https://github.com/compvis/stable-diffusion)
+| SD 1.x | [High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752) | arXiv(2021) / CVPR(2022) | [PyTorch](https://github.com/CompVis/stable-diffusion)
+| SD 2 | [High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752) | arXiv(2021) / CVPR(2022) | [PyTorch](https://github.com/Stability-AI/generative-models)
 | DiT | [Scalable Diffusion Models with Transformers](https://arxiv.org/abs/2212.09748) | arXiv(2022) / ICCV(2023) | [PyTorch](https://github.com/facebookresearch/DiT)
+| SDXL | [SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis](https://arxiv.org/abs/2307.01952) | arXiv(2023) / ICLR(2024) | [PyTorch](https://github.com/Stability-AI/generative-models)
+| SD 3 | [Scaling Rectified Flow Transformers for High-Resolution Image Synthesis](https://arxiv.org/abs/2403.03206) | arXiv(2024) / ICML(2024) | [PyTorch](https://github.com/Stability-AI/generative-models)
+| SD 3.5 | [Scaling Rectified Flow Transformers for High-Resolution Image Synthesis](https://arxiv.org/abs/2403.03206) | arXiv(2024) / ICML(2024) | [PyTorch](https://github.com/Stability-AI/generative-models)
+| FLUX.1 | [FLUX.1 Kontext: Flow Matching for In-Context Image Generation and Editing in Latent Space](https://arxiv.org/abs/2506.15742) | arXiv(2025) | [PyTorch](https://github.com/black-forest-labs/flux)
+| Qwen-Image | [Qwen-Image Technical Report](https://arxiv.org/abs/2508.02324) | arXiv(2025) | [PyTorch](https://github.com/QwenLM/Qwen-Image)
 | JiT | [Back to Basics: Let Denoising Generative Models Denoise](https://arxiv.org/abs/2511.13720) | arXiv(2025) | [PyTorch](https://github.com/LTH14/JiT)
 | PixelDiT | [PixelDiT: Pixel Diffusion Transformers for Image Generation](https://arxiv.org/abs/2511.20645) | arXiv(2025) / CVPR(2026) | [PyTorch](https://github.com/NVlabs/PixelDiT)
+| Qwen-Image-Layered | [Qwen-Image-Layered: Towards Inherent Editability via Layer Decomposition](https://arxiv.org/abs/2512.15603) | arXiv(2025) | [PyTorch](https://github.com/QwenLM/Qwen-Image-Layered)
+| FLUX.2 | [FLUX.2: Frontier Visual Intelligence](https://bfl.ai/blog/flux-2) | BFL(2025) | [PyTorch](https://github.com/black-forest-labs/flux2)
+| Qwen-Image-2.0 | [Qwen-Image-2.0 Technical Report](https://arxiv.org/abs/2605.10730) | arXiv(2026) | [PyTorch](https://github.com/QwenLM/Qwen-Image)
 > More implementation for Diffusion Models can be found in [Awesome-Diffusion-Models](https://github.com/diff-usion/Awesome-Diffusion-Models).
 
 ## AIGC-Applications
