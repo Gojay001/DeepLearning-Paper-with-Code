@@ -59,8 +59,10 @@ There are paper with code for CV / AIGC / LLM / VLM.
 | Title | Paper | Conf | Code |
 |:--------|:--------:|:--------:|:--------:|
 | DDPM | [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239) | arXiv(2020) / NIPS(2020) | [PyTorch](https://github.com/lucidrains/denoising-diffusion-pytorch)
+| DDIM | [Denoising Diffusion Implicit Models](https://arxiv.org/abs/2010.02502) | arXiv(2020) / ICLR(2021) | [PyTorch](https://github.com/ermongroup/ddim)
 | SD 1.x | [High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752) | arXiv(2021) / CVPR(2022) | [PyTorch](https://github.com/CompVis/stable-diffusion)
 | SD 2 | [High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752) | arXiv(2021) / CVPR(2022) | [PyTorch](https://github.com/Stability-AI/generative-models)
+| Flow Matching | [Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747) | arXiv(2022) / ICLR(2023) | [PyTorch](https://github.com/facebookresearch/flow_matching)
 | DiT | [Scalable Diffusion Models with Transformers](https://arxiv.org/abs/2212.09748) | arXiv(2022) / ICCV(2023) | [PyTorch](https://github.com/facebookresearch/DiT)
 | SDXL | [SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis](https://arxiv.org/abs/2307.01952) | arXiv(2023) / ICLR(2024) | [PyTorch](https://github.com/Stability-AI/generative-models)
 | SD 3 | [Scaling Rectified Flow Transformers for High-Resolution Image Synthesis](https://arxiv.org/abs/2403.03206) | arXiv(2024) / ICML(2024) | [PyTorch](https://github.com/Stability-AI/generative-models)
