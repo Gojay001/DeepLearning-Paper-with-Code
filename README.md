@@ -74,6 +74,7 @@ There are paper with code for CV / AIGC / LLM / VLM.
 | Qwen-Image-Layered | [Qwen-Image-Layered: Towards Inherent Editability via Layer Decomposition](https://arxiv.org/abs/2512.15603) | arXiv(2025) | [PyTorch](https://github.com/QwenLM/Qwen-Image-Layered)
 | FLUX.2 | [FLUX.2: Frontier Visual Intelligence](https://bfl.ai/blog/flux-2) | BFL(2025) | [PyTorch](https://github.com/black-forest-labs/flux2)
 | Qwen-Image-2.0 | [Qwen-Image-2.0 Technical Report](https://arxiv.org/abs/2605.10730) | arXiv(2026) | [PyTorch](https://github.com/QwenLM/Qwen-Image)
+| Ideogram 4.0 | [Ideogram 4.0 Technical Details: Open model at the forefront of design](https://ideogram.ai/blog/ideogram-4.0/) | Ideogram(2026) | [PyTorch](https://github.com/ideogram-oss/ideogram4)
 > More implementation for Diffusion Models can be found in [Awesome-Diffusion-Models](https://github.com/diff-usion/Awesome-Diffusion-Models).
 
 ## AIGC-Applications
@@ -136,6 +137,7 @@ There are paper with code for CV / AIGC / LLM / VLM.
 | CLIP | [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) | arXiv(2021) / ICML(2021) | [PyTorch](https://github.com/openai/CLIP)
 | BLIP | [BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation](https://arxiv.org/abs/2201.12086) | arXiv(2022) / ICML(2022) | [PyTorch](https://github.com/salesforce/BLIP)
 | SigLIP | [Sigmoid Loss for Language Image Pre-Training](https://arxiv.org/abs/2303.15343) | arXiv(2023) / ICCV(2023) | [JAX](https://github.com/google-research/big_vision)
+| Vision Banana | [Image Generators are Generalist Vision Learners](https://arxiv.org/abs/2604.20329) | arXiv(2026) | [code]
 
 ---
 
