@@ -71,7 +71,7 @@ There are paper with code for CV / AIGC / LLM / VLM.
 | Qwen-Image | [Qwen-Image Technical Report](https://arxiv.org/abs/2508.02324) | arXiv(2025) | [PyTorch](https://github.com/QwenLM/Qwen-Image)
 | JiT | [Back to Basics: Let Denoising Generative Models Denoise](https://arxiv.org/abs/2511.13720) | arXiv(2025) | [PyTorch](https://github.com/LTH14/JiT)
 | PixelDiT | [PixelDiT: Pixel Diffusion Transformers for Image Generation](https://arxiv.org/abs/2511.20645) | arXiv(2025) / CVPR(2026) | [PyTorch](https://github.com/NVlabs/PixelDiT)
-| Qwen-Image-Layered | [Qwen-Image-Layered: Towards Inherent Editability via Layer Decomposition](https://arxiv.org/abs/2512.15603) | arXiv(2025) | [PyTorch](https://github.com/QwenLM/Qwen-Image-Layered)
+| Z-Image | [Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffusion Transformer](https://arxiv.org/abs/2511.22699) | arXiv(2025) | [PyTorch](https://github.com/Tongyi-MAI/Z-Image)
 | FLUX.2 | [FLUX.2: Frontier Visual Intelligence](https://bfl.ai/blog/flux-2) | BFL(2025) | [PyTorch](https://github.com/black-forest-labs/flux2)
 | Qwen-Image-2.0 | [Qwen-Image-2.0 Technical Report](https://arxiv.org/abs/2605.10730) | arXiv(2026) | [PyTorch](https://github.com/QwenLM/Qwen-Image)
 | Ideogram 4.0 | [Ideogram 4.0 Technical Details: Open model at the forefront of design](https://ideogram.ai/blog/ideogram-4.0/) | Ideogram(2026) | [PyTorch](https://github.com/ideogram-oss/ideogram4)
